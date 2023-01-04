@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(22, 165, 181);
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    
+    
+}
+
+.sidebar{
+    width: 40%;
+    height: 100vh;
+    position: relative;
+    background-image: url(Side-image.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+#odin-logo{
+    position: absolute;
+    width: 100px;
+    right: 45%;
+    bottom: 25%;
+}
+
+.formsection{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.form-title{
+    border: 1px solid black;
+    
+    height: auto;
+}
