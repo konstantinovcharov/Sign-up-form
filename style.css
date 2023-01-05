@@ -34,6 +34,40 @@ body{
 
 .form-title{
     border: 1px solid black;
-    
-    height: auto;
+    height: 40%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
 }
+
+.form{
+    border: 1px solid black;
+    height: 30%;
+}
+
+form{
+    margin: 0 auto;
+}
+
+.box{
+    padding: 0.5rem;
+    float: left;
+    width: 48%;
+}
+
+label{
+    display: block;
+}
+
+input{
+    display: inline-block;
+    width: 100%;
+    padding: 0.1rem;
+}
+
+
+.buttonsection{
+    border: 1px solid black;
+    height: 30%;
+}
+
