@@ -1,73 +1,141 @@
-body{
-    background-color: rgb(22, 165, 181);
+body {
+    background-color: rgb(253, 255, 255);
     margin: 0;
     padding: 0;
-    
     display: flex;
-    
-    
+
 }
 
-.sidebar{
+.sidebar {
     width: 40%;
     height: 100vh;
     position: relative;
     background-image: url(Side-image.jpg);
     background-position: center;
     background-size: cover;
+
+}
+
+
+
+#odin-logo {
+    position: relative;
+    width: 150px;
+    margin: 25px;
+}
+
+.formsection {
+    width: 100%;
     
 }
 
-
-
-#odin-logo{
-    position: absolute;
-    width: 100px;
-    right: 45%;
-    bottom: 25%;
-}
-
-.formsection{
-    width: 100%;
-    border: 1px solid black;
-}
-
-.form-title{
-    border: 1px solid black;
+.form-title {
+    
     height: 40%;
-    display: flex;    
+    display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
-.form{
-    border: 1px solid black;
+.form-title-text {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.form {
+    
     height: 30%;
+    overflow: auto;
+
 }
 
-form{
+form {
     margin: 0 auto;
 }
 
-.box{
+.box {
     padding: 0.5rem;
     float: left;
     width: 48%;
 }
 
-label{
+label {
     display: block;
 }
 
-input{
+
+
+input {
     display: inline-block;
     width: 100%;
     padding: 0.1rem;
 }
 
 
-.buttonsection{
-    border: 1px solid black;
-    height: 30%;
+
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password] {
+    width: 200px;
+    outline: none;
+    background-color: #E5E7EB;
+
 }
 
+input:focus {
+    border: 2px solid rgb(8, 108, 135);
+}
+
+input:invalid {
+    border: 2px solid rgb(249, 83, 83);
+}
+
+#first-name-div,
+#email-div,
+#password-div {
+    position: relative;
+    left: 20px;
+}
+
+#last-name-div,
+#phone-div,
+#confirm-div {
+    position: relative;
+    right: 20px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+.buttonsection {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#create-account-button {
+    color: #F9FAF8;
+    background-color: #596D48;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
+    width: 10em;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0 0 15px 20px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-message {
+
+    margin-left: 20px;
+}
