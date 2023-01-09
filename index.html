@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
     <title>Sign up form</title>
 </head>
+
 <body>
     <div class="sidebar">
-        
+
         <img src="odin-lined.png" alt="odin_logo" id="odin-logo">
     </div>
     <div class="formsection">
         <div class="form-title">
-            <div class="form-title-text">
-                This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.<br> Sign up now to get started.<br> <br> You know you want to.
-            </div>
+
+            <h1>This is not a real online service! You know you need something like this in your life to help you
+                realise your deepest dreams.<br> Sign up now to get started.<br> <br> You know you want to.</h1>
+
         </div>
         <div class="form">
             <form>
-                <fieldset>
-                    <legend>
-                        Sign up form
-                    </legend>
-                    <div class="box" id="first-name-div">
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" placeholder="John" required>
+                <h1>Let's do this!</h1>
+                <div class="inputs">
+                    <div class="first-name">
+                        <input required type="text" class="form-input" id="first-name" placeholder="First Name" />
+                        <label for="first-name" class="form-label">First name:</label>
                     </div>
-
-                    <div class="box" id="last-name-div">
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" placeholder="Doe" required>
+                    <div class="last-name">
+                        <input required type="text" class="form-input" id="last-name" placeholder="Last Name" />
+                        <label for="last-name" class="form-label">Last name:</label>
                     </div>
-
-                    <div class="box" id="email-div">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="a@b" required>
+                </div>
+                <div class="inputs">
+                    <div class="email">
+                        <input required type="email" class="form-input" id="email" placeholder="Email" />
+                        <label for="email" class="form-label">Email:</label>
                     </div>
-
-                    <div class="box" id="phone-div">
-                        <label for="phone_number">Phone number</label>
-                        <input type="number" id="phone_number" placeholder="112" required>
+                    <div class="phone">
+                        <input required type="text" class="form-input" id="phone" placeholder="Phone" />
+                        <label for="phone" class="form-label">Phone:</label>
                     </div>
-
-                    <div class="box" id="password-div">
-                        <label for="password">Password</label>
-                        <input type="password" id="password"  required>
+                </div>
+                <div class="inputs">
+                    <div class="password">
+                        <input required type="password" class="form-input" id="password" placeholder="Password" />
+                        <label for="password" class="form-label">Password:</label>
                     </div>
-
-                    <div class="box" id="confirm-div">
-                        <label for="password">Confirm Password</label>
-                        <input type="password" id="password"  required>
+                    <div class="confirm-password">
+                        <input required type="password" class="form-input" id="confirm-password"
+                            placeholder="Confirm Password" />
+                        <label for="confirm-password" class="form-label">Confirm Password:</label>
                     </div>
-                </fieldset>
+                </div>
             </form>
         </div>
         <div class="buttonsection">
             <button id="create-account-button">Create Account</button>
-            
+
             <div class="button-message">
                 Already have an account? <a href="index.html">Log in</a>
             </div>
-         </div>
+        </div>
 
     </div>
-    
+
 </body>
+
 </html>
